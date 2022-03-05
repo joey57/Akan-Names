@@ -34,12 +34,12 @@
 
 form {
   padding-top: 5%;
-  margin-top: 3%;
   align-items: center;
   border-radius: 10px;
   padding: 20px;
   width: 80%;
   margin-left: 10%;
+  margin-bottom: 10%;
 }
 
 legend {
@@ -72,3 +72,22 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: black;
 }
+#footer p{
+  text-align: center;
+}
+#footer .section-a{
+  background-color: black;
+  padding: 0%;
+  margin: 0%;
+}
+.section-a i{
+  color: #fff;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 10px;
+}
+.section-b p{
+  text-transform: uppercase;
+  text-align: center;
+}
+
