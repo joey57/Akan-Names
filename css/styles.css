@@ -18,3 +18,16 @@
 .carousel-item p{
   color: #fff;
 }
+#about{
+  padding: 10%;
+}
+#about h5{
+  text-align: center;
+  font-weight: 600;
+  font-size: xx-large;
+}
+#about{
+  padding-top: 5%;
+  margin: auto;
+  text-align: center;
+}
