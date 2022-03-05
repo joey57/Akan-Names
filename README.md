@@ -11,5 +11,5 @@ I have used HTML, CSS and JavaScript to create this website.
 ## Support and contact details
 If you run find a problem maybe the website couldnt be found try looking at the website link and ensure it is the right one.
 ### License
-*MIT LICENSE*
+MIT LICENSE
 Copyright (c) {2022} 
