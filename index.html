@@ -93,9 +93,31 @@
   <div class="row" id="form">
     <div class="col-md-12">
       <!--form-->
+      <form id="form" name="form" onsubmit="findDay()">
+        <legend>Fill form to find out your akan name:
+          <hr>
+        </legend>
 
-      </div>
-      </div>
+        <label for="year">Year of birth</label>
+        <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Example: 1974">
+
+        <label for="month">Month</label>
+        <input type="number" id="month" name="month" min="1" max="12" required placeholder="Example: December=12, May=5">
+
+        <label for="date">Date</label>
+        <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 15">
+
+        
+
+        
+
+      </form>
+
+    </div>  
+    </div>
+
+    
+  
 
   <!-- footer section -->
   <div class="row" id="footer">
