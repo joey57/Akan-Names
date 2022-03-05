@@ -8,3 +8,16 @@ var akan = function(y, m, d, g){
     return d && maleNames[d.getDay()];
   }
 }
+$(document).ready(function(){
+  $("form#form").submit(function(event){
+    event.preventDefault();
+    var y = parseInt($("#year").val());
+    var m = parseInt($("#month").val());
+    var d = parseInt($("#date").val());
+    var g = $("input.radio[name-gender]:checked").val();
+    var result = akan(y, m, d, g);
+    alert("Your akan name is: " + result);
+
+    document.getElementedById("form").reset(); 
+  });
+});
