@@ -5,7 +5,7 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: url(/images/flag2.jpg);
+  background: url(./images/flag2.jpg);
   background-size: cover;
   background-position: center;
 }
